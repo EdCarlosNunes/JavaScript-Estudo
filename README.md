@@ -2,8 +2,8 @@
 # <img align="left" alt="Rafa-pic" height="120" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/905166463705448482/986608730030374952/picasion.com_d6028dc31db44d30b27a51113b18ff50.gif"> 
 # Olá, sou o Ed Carlos💻
 <br>
-<p> Ola esse aqui é um curso de javaScript</p>
-<p> tentei detalahar o maximo possivil em todos os codigos</p>
+<p> - Ola esse aqui é um curso de javaScript</p>
+<p> - tentei detalahar o maximo possivil em todos os codigos</p>
 <br>
 <br>
 <br>
