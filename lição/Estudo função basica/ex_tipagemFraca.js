@@ -1,10 +1,10 @@
-let spaceship = "Golias"
-let Velocity = 80
+let nome = "JavaScript"
+let n1 = 80
 
-console.log(Velocity == "80") // com == ele iguinora que no let velocity é um numero e não uma string
-console.log(Velocity === "80")  // ja com === ele vai ver se realmente no let velocity é igual a string"80" retornara false
-console.log(Velocity != "80") //mesma coisa para diferente !=
-console.log(Velocity !== "80") //Aqui ele reconhece uqe é diferente pois aqui é uma string e não um numero
-console.log(Velocity > 70) // maior > menor // menor < maior
-console.log(spaceship > "Helmit") // quando é para string // vem depois > vem antes // vem antes < vem depois
-// e tamebem tem >= (maior ou igual) <= (menor ou igual)
+console.log(n1 == "80")//com == ele iguinora que o let n1 é um numero e não uma string
+console.log(n1 === "80")//ja com === ele vai ver se realmete no let n1  é igual a string "80"
+console.log(n1 != "80")// != mesma coisa que fala diferente, ele iguinora que n1 não é string
+console.log(n1 !== "80")// ele não vai iguinorar que n1 é numero, !== reconhece string e numero
+console.log(n1 > 70)//maior > menor || menor < maior
+console.log(n1 < 70)//mesma coisa que o de cima
+console.log(nome > "HTML")// vem antes > vem depois
