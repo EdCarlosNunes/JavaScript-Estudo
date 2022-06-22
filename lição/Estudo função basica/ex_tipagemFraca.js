@@ -7,4 +7,4 @@ console.log(n1 != "80")// != mesma coisa que fala diferente, ele iguinora que n1
 console.log(n1 !== "80")// ele não vai iguinorar que n1 é numero, !== reconhece string e numero
 console.log(n1 > 70)//maior > menor || menor < maior
 console.log(n1 < 70)//mesma coisa que o de cima
-console.log(nome > "HTML")// vem antes > vem depois
+console.log(nome > "HTML")

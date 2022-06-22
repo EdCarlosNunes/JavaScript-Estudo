@@ -1,3 +1,30 @@
+let nameLua = "Lua"
+let n1 = 20
+
+//Vamos aprender a tabela verdade operação logica
+console.log(nameLua.length == 3 && n1 > 15)
+//.length tamanho da palavra 3 é igual == 3 e(&&) n1 é maior que 15: V E(&&) V = V
+
+console.log(n1 > 10 && n1 < 19)
+//n1 é maior > que 10 E(&&) n1 é meor< que 19:    V E(&&) F = F
+
+console.log(n1 < 17 && nameLua == "Terra")
+//n1 é menor < que 17 E(&&) nameLua é igual == a "Terra": F E(&&) F = F
+
+console.log(nameLua.length == 3 || n1 > 15)
+//.length tamanho da palavra 3 é igual == 3 E(&&) n1 é maior > que 15: V OU(||) V = V
+
+console.log(n1 > 10 || n1 < 19)
+//n1 é maior > que 10 OU(||) n1 é menor < que 19:      V OU(||) F = V
+
+console.log(n1 < 17 || nameLua == "Terra")
+//n1 é menor > que 17 OU(||) nameLua é igual == "Terra": F OU(||) F = F
+
+console.log(!(n1 > 19))
+// toda vez que for sim a resposta é o oposto
+//exemplo n1 é maior > que 19 certo no console aparece false vice e versa 
+console.log(!(nameLua == "Terra"))
+
 let spaceship = "Elemental"
 let velocity = 20
 
@@ -34,8 +61,8 @@ console.log(!(velocity > 19)) // Não V = F
 console.log(!(spaceship == "Golias")) // Não F = V
 
 //Exemplo
-console.log(!(velocity > 25 && spaceship == "Elemental") || (velocity -3 == 17 && spaceship.length + 1 > 15))
-//!(velocity > 25 && spaceship == "Elemental") || (17 == 17 && 10 > 15))
+console.log(!(n1 > 25 && nameLua == "Lua") || (nameLua == 3 && nameLua.length + 1 > 15))
+//(!(n1 > 25 && nameLua == "Lua") || (nameLua == 3 && nameLua.length + 1 > 15))
 //!(F && V) || (V && F))
 //!F || F)
 //!F = V
