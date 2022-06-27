@@ -7,7 +7,7 @@ let with9Chars = hitchedSpaceships.filter(element => {
     })
 console.log(with9Chars)
 
-let primeiroTrue = hitchedSpaceships.findIndex((item) => item[2] == true)
+let primeiroTrue = hitchedSpaceships.findIndex((item) => item[2] == false)
 console.log(primeiroTrue)
 
 let upperSpaceship = hitchedSpaceships.map(spaceshio =>{
