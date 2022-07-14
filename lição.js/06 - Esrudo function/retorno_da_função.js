@@ -1,14 +1,9 @@
-function speedUp(velocity, acceleration){
-    let newVelocity = velocity + acceleration
-    console.log("Nova velocidade: "+ newVelocity)
-    return newVelocity // returno vai armazena a conta que ja foi feita para o usuario
+let x = myFunction(4, 3);   
+
+function myFunction(a, b) {
+  return a * b;            
 }
 
-let velocity = 80
-let acceleration = 5
+let y = myFunction(5, 5)
 
-console.log(velocity)
-
-velocity = speedUp(velocity, acceleration)
-
-console.log(velocity)
+console.log(x, y)
